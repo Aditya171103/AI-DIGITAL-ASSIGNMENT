@@ -1,5 +1,5 @@
 # AI-DIGITAL-ASSIGNMENT
-natural language processing
+//natural language processing
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,7 +14,7 @@ import org.json.JSONObject;
 
 public class SentimentAnalysisExample {
     public static void main(String[] args) throws IOException {
-        // Read input text from the user
+      
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter text to analyze sentiment: ");
         String inputText = reader.readLine();
